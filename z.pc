@@ -1,0 +1,12 @@
+prefix=/usr/local
+exec_prefix=/usr/local
+libdir=/usr/local/lib
+includedir=/usr/local/include
+
+Name: z
+Description: z compression library
+Version: 1.2.8
+
+Requires:
+Libs: -L${libdir} -lz
+Cflags: -I${includedir}
